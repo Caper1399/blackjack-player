@@ -369,3 +369,16 @@ Other options:
   -h, --help                   Show this help message
       --version                Print version information
 ```
+
+# Rules
+[General Rules](https://www.blackjackapprenticeship.com/how-to-play-blackjack/)
+
+Extra Rules: 
+1. Must run under [Valgrind](https://en.wikipedia.org/wiki/Valgrind) without errors
+2. Dealer doesn't hit soft 17
+3. Split only once
+4. Can double down after splitting
+5. Can double down and split even if you don't have sufficient funds. Loss will send you negative and end the game. 
+6. Stand if given a busted hand
+7. Can't surrender after first action on a hand or after splitting
+8. Illegal actions lead to automatic draws and the round being counted as invalid.
